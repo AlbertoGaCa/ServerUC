@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface IArticuloService {
     public List<Articulo> getArticulosByLike(String like);
+    public Articulo getArticuloByBarcode(String barcode);
 }
